@@ -3,16 +3,50 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Address Book</title>
   </head>
   <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">Add your friends to this address book.</h1>
+        <!-- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p> -->
+        <hr class="my-4">
+        <p>click their names to see details</p>
+        <!-- <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p> -->
+      </div>
+
+      <div class="">
+        <form id="address-form">
+          <div class="form-group">
+            <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name"/>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-outline-danger" name="button">submit</button>
+          </div>
+        </form>
+      </div>
+
+
+      <div class="show-area">
+        <p class="display-3"><a href="#" id="firstname"></a></p>
+      </div>
+      <div class="detail">
+
+      </div>
 
 
 
-    
+
+    </div>
+
+
+
       <!-- bootstrap javascript -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
